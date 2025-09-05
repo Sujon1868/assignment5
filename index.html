@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 5</title>
+    <title>Assaingnment-5</title>
     <!--daisyUi cdn-->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <!--tailwind cdn-->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+
     <!--dontawesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
 </head>
 <body>
-    <nav class="flex flex-wrap justify-between items-center px-4 py-2 bg-white ">
+   <nav class="flex flex-wrap justify-between items-center px-4 py-2 bg-white ">
   <div class="flex items-center gap-2 flex-1 min-w-[200px]">
     <img src="./assets/logo.png" class="w-[50px] h-[50px]" alt="">
     <div class="text-[#006747] text-2xl font-bold leading-tight">
@@ -22,22 +24,26 @@
 
  
   <div class="flex items-center gap-2 flex-wrap justify-end min-w-[150px] mt-2 lg:mt-0">
-    <span id="hart-available">0</span>
+    <span id="heart-available">0</span>
     <img src="./assets/heart.png" class="w-[24px] h-[24px]" alt="">
     <span id="coin-count">100</span>
     <img src="./assets/coin.png" class="w-[24px] h-[24px]" alt="">
    
-    <button class="btn bg-green-600 text-white px-3 py-1 text-sm rounded-3xl"> <span id="copy-availabale">0</span>Copy</button>
+    <button class="btn bg-green-600 text-white px-3 py-1 text-sm rounded-3xl"> <span id="copy-available">0</span>Copy</button>
   </div>
 </nav>
-<section>
+ 
+    
+    <section>
         <div class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] flex flex-col items-center justify-center text-center shadow-2xl mt-4 mb-8">
            <img src="./assets/logo-dark.png" class="w-[92px] h-[92px] mb-4 mt-6" alt="">
            <h1 class="text-white text-3xl font-semibold mb-4 ">Emergency Service Directory</h1>
            <p class="text-white mb-4">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh`</p>
         </div>
     </section>
-    <section class="flex flex-col lg:flex-row gap-4 p-4">
+
+
+ <section class="flex flex-col lg:flex-row gap-4 p-4">
   <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 flex-1">
    
     <div class="bg-white shadow-md rounded-lg p-2 h-[230px] flex flex-col justify-between hover:shadow-lg transition-shadow duration-200">
@@ -269,9 +275,8 @@
 
 </section>
 
-
+ 
 <script src="./script.js"></script>
 
-    
 </body>
 </html>
